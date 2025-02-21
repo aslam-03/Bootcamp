@@ -1,15 +1,3 @@
-# class Animal:
-#     def speak(self):
-#         print("hi im jimmy")
-# class dog(Animal):
-#     def speak(self):
-#         print("hi im dog")
-# class cat(Animal):
-#     def speak(self):
-#         print("hi im cat")
-# a=[Animal(),dog(),cat()]
-# for i in a:
-#     i.speak()
 
 class Animal:
     def speak(self):
