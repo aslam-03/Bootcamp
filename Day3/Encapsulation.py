@@ -3,19 +3,6 @@ class Robot:
         self.__energy_level=energy_level
         self._model=model
 
-    # def boosting(self,boost):
-    #     if boost>0:
-    #         self.__energy_level=boost+ self.__energy_level
-    #         print(f"{self.__energy_level}")
-    #     else:
-    #         print("give positive value")
-    
-    # def draining(self, drain):
-    #     if 0 < drain <= self.__energy_level:
-    #         self.__energy_level -= drain
-    #         print(f"{self.__energy_level}")
-    #     else:
-    #         print("Insufficient enregy")
     def get_energy(self):
         return self.__energy_level
     
